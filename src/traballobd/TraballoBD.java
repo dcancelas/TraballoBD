@@ -16,21 +16,4 @@ public class TraballoBD {
         oper.desconectar();
         oper.consultar("select * from taboa1");
     }
-    
-    /*public static void crearBD() {
-
-        String url = "jdbc:sqlite:E:/DANIE/Documents/NetBeansProjects/TraballoBD/proba.db";
-
-        try (Connection conn = DriverManager.getConnection(url)) {
-            if (conn != null) {
-                DatabaseMetaData meta = conn.getMetaData();
-                System.out.println("O nome do driver é " + meta.getDriverName());
-                System.out.println("A base de datos creouse correctamente");
-            }
-
-        } catch (SQLException e) {
-            System.out.println(e.getMessage());
-        }
-    }*/
-    
 }
